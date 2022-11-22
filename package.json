@@ -1,0 +1,10 @@
+{
+  "name": "rocketBlackFriday",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "liliul <liliuestudo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+  	"dev":"sass -w ./src/sass/styleGlobal.scss:./src/css/styele.css & live-server --no-browser"
+  }
+}
