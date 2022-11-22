@@ -1,0 +1,68 @@
+.contentMain {
+	background-image: url('../assets/BG-black.webp');
+	background-position: 50% 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: auto;
+
+    padding-bottom: 100px;
+
+    .maxWidth {
+        width: auto;
+        max-width: 1216px;
+
+        padding: 0px 16px 0px 16px;
+
+        .content-center {
+            width: auto;
+
+            .header-content-black {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                margin-top: 40px;
+
+                .logo-blackfirday {
+                    width: 100%;
+                }
+
+                .center {
+                    margin-top: 24px;
+                    text-align: center;
+                }
+
+                a {
+                    margin-top: 24px;
+                    text-decoration: none;
+
+                    .button-assemble {
+                        background-color: #8257e5;
+                        border: 0;
+                        padding: 14px 24px;
+                        border-radius: 5px;
+
+                        display: flex;
+                        align-items: center;
+
+                        
+                       
+
+                        b {
+                            margin-left: 8px;
+                            
+                        }
+                    }
+                }
+
+                .arrow-b {
+                    height: 48px;
+                    margin-top: 24px;
+                }
+
+            }
+        }
+    }
+}

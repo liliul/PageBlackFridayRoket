@@ -1,2 +1,6 @@
-@import '_reset/reset.scss';
-h1{color:blue;}
+@import 'reset/_reset.scss';
+
+@import 'variables/_variables.scss';
+@import 'components/componentsGlobal.scss';
+
+@import 'layout/layoutGlobal.scss'

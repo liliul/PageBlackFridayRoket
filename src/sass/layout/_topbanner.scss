@@ -1,0 +1,12 @@
+.topbanner {
+	width: 100%;
+	padding: $p1 0px;
+
+	background-image: $bg_banner;
+
+	border-radius: 0px 0px 30px 30px;
+
+	.textbanner {
+		text-align: center;
+	}
+}
