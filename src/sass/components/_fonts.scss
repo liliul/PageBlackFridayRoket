@@ -7,11 +7,35 @@
     font-weight: 700;
 }
 
+.headline-20 {
+	font-family: $f_roboto;
+    color: #e1e1e6;
+    font-size: 18px;
+    line-height: 160%;
+    font-weight: 700;
+}
+.headline-24 {
+	font-family: $f_roboto;
+    color: #00b37e;
+    font-size: 24px;
+    line-height: 140%;
+    font-weight: 700;
+
+    text-align: center;
+    margin-top: 8px;
+}
 .headline-48 {
 	font-family: $f_roboto;
     color: #fff;
     font-size: 30px;
     line-height: 125%;
+    font-weight: 700;
+}
+.headline-32 {
+	font-family: $f_roboto;
+    color: #fff;
+    font-size: 24px;
+    line-height: 140%;
     font-weight: 700;
 }
 
@@ -20,6 +44,13 @@
     font-size: 16px;
     line-height: 160%;
     color: #e1e1e6;
+}
+.p-gray {
+	font-family: $f_roboto;
+    font-size: 14px;
+    line-height: 160%;
+    color: #c4c4cc;
+    text-align: center;
 }
 
 .text-buttom {

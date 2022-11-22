@@ -1,0 +1,61 @@
+
+ .button-assemble {
+    background-color: #8257e5;
+    border: 0;
+    padding: 14px 24px;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+
+    
+   
+
+    b {
+        margin-left: 8px;
+        
+    }
+}
+
+.button-lp-ignite {
+    padding: 16px 32px;
+    border-radius: 5px;
+    background-color: #00875f;
+    -webkit-transition: background-color .2s;
+    transition: background-color .2s;
+    font-family: $f_roboto;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+  .button-lp-explorer{
+    padding: 16px 32px;
+    border-radius: 5px;
+    background-color: #42d3ff;
+    -webkit-transition: background-color .2s;
+    transition: background-color .2s;
+    font-family: $f_roboto;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+  .link-mais {
+    margin-top: 8px;
+    padding: 16px 32px;
+    background-color: transparent;
+    -webkit-transition-property: border;
+    transition-property: border;
+    color: #e1e1e6;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+}
