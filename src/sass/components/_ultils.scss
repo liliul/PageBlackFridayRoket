@@ -5,6 +5,10 @@
 .purple {
 	color: #8257e5 !important;
 }
+ .green {
+  color: #04d361;
+}
+
 
 .bg-explorer {
 	background-image: linear-gradient(180deg,#121214 50%,rgba(18,18,20,0)),url('../assets/blur-explorer.webp')!important;
@@ -14,8 +18,9 @@
  }
  .bg-purple {
  	background-image: url('../assets/blur-purple.webp') ,linear-gradient(180deg,transparent,transparent)!important;
-    background-position: 50% 100%,0 0;
-    background-color: rgba(29,19,52,.5);
+   background-position: 50% 100%,0 0 !important;
+   background-color: rgba(29,19,52,.5) !important;
+   background-repeat: no-repeat !important; 
  } 
 
  .dividir-sections {
@@ -25,4 +30,51 @@
  	height: 1px;
 
  	background-color: #323238;
- }  
+ }
+ .divisor-card {
+  margin: 24px 0px;
+  width: 100%;
+  height: 1px;
+  background-color: #323238;
+ }
+
+
+.content-tags {
+  margin: 16px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px 0px;
+
+  .tag-cursos {
+    border-radius: 100px;
+    padding: 8px 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    background-color: #202024;
+    width: fit-content;
+  }
+} 
+
+
+ .section-price {
+    background-image: linear-gradient(180deg,#29292e,rgba(41,41,46,0));
+    padding: 16px;
+    border-radius: 4px;
+    margin-top: 24px ;
+
+}
+
+.b-space {
+  margin-top: 32px;
+  width: 100%;
+  a {
+  display: block;
+
+    width: auto;
+
+  }
+} 

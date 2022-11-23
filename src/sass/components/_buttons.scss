@@ -47,6 +47,21 @@
     text-align: center;
 }
 
+  .button-lp-purple{
+    padding: 16px 32px;
+    border-radius: 5px;
+    background-color: #8257e5;
+    -webkit-transition: background-color .2s;
+    transition: background-color .2s;
+    font-family: $f_roboto;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
   .link-mais {
     margin-top: 8px;
     padding: 16px 32px;

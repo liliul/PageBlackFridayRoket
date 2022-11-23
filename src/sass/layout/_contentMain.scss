@@ -126,10 +126,7 @@
 
                     .p-gray {
 
-                        .green {
-                            color: #04d361;
-                        }
-                       
+                
 
                     }
                 
@@ -150,6 +147,41 @@
 
             .content-c-dir {
                 margin-top: 60px;
+            }
+        }
+
+
+        .section-grid-cursos {
+            margin: 40px 0px 0px 0px;
+
+            .card-cursos {
+                padding: 16px;
+                border: 1px solid #202024;
+                border-radius: 6px;
+                background-color: #09090a;
+
+                margin-bottom: 32px;
+
+
+                .name-curso {
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+                }
+
+
+
+                .instructor-course {
+                    display: flex;
+                    align-items: center;
+                    gap: 0px 16px;
+
+                    .avatar-instructor-card {
+                        max-width: 54px;
+                    }
+
+                }
+
             }
         }
     }

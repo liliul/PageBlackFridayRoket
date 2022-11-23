@@ -116,6 +116,14 @@ table {
   font-family: "Roboto", sans-serif;
 }
 
+.span-slice {
+  text-decoration: line-through;
+}
+
+.font20 {
+  font-size: 20px;
+}
+
 .button-assemble {
   background-color: #8257e5;
   border: 0;
@@ -158,6 +166,21 @@ table {
   text-align: center;
 }
 
+.button-lp-purple {
+  padding: 16px 32px;
+  border-radius: 5px;
+  background-color: #8257e5;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
 .link-mais {
   margin-top: 8px;
   padding: 16px 32px;
@@ -192,6 +215,10 @@ table {
   color: #8257e5 !important;
 }
 
+.green {
+  color: #04d361;
+}
+
 .bg-explorer {
   background-image: linear-gradient(180deg, #121214 50%, rgba(18, 18, 20, 0)), url("../assets/blur-explorer.webp") !important;
   background-position: 0 0, 50% 100%;
@@ -201,8 +228,9 @@ table {
 
 .bg-purple {
   background-image: url("../assets/blur-purple.webp"), linear-gradient(180deg, transparent, transparent) !important;
-  background-position: 50% 100%, 0 0;
-  background-color: rgba(29, 19, 52, 0.5);
+  background-position: 50% 100%, 0 0 !important;
+  background-color: rgba(29, 19, 52, 0.5) !important;
+  background-repeat: no-repeat !important;
 }
 
 .dividir-sections {
@@ -210,6 +238,46 @@ table {
   width: 100%;
   height: 1px;
   background-color: #323238;
+}
+
+.divisor-card {
+  margin: 24px 0px;
+  width: 100%;
+  height: 1px;
+  background-color: #323238;
+}
+
+.content-tags {
+  margin: 16px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px 0px;
+}
+.content-tags .tag-cursos {
+  border-radius: 100px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #202024;
+  width: fit-content;
+}
+
+.section-price {
+  background-image: linear-gradient(180deg, #29292e, rgba(41, 41, 46, 0));
+  padding: 16px;
+  border-radius: 4px;
+  margin-top: 24px;
+}
+
+.b-space {
+  margin-top: 32px;
+  width: 100%;
+}
+.b-space a {
+  display: block;
+  width: auto;
 }
 
 .topbanner {
@@ -315,9 +383,6 @@ table {
   border-radius: 4px;
   margin-bottom: 24px;
 }
-.contentMain .maxWidth .section-card-products .content-c-esq .section-price .p-gray .green {
-  color: #04d361;
-}
 .contentMain .maxWidth .section-card-products .content-c-esq .section-content-buttom .div-content-buttons {
   display: flex;
   flex-direction: column;
@@ -325,6 +390,29 @@ table {
 }
 .contentMain .maxWidth .section-card-products .content-c-dir {
   margin-top: 60px;
+}
+.contentMain .maxWidth .section-grid-cursos {
+  margin: 40px 0px 0px 0px;
+}
+.contentMain .maxWidth .section-grid-cursos .card-cursos {
+  padding: 16px;
+  border: 1px solid #202024;
+  border-radius: 6px;
+  background-color: #09090a;
+  margin-bottom: 32px;
+}
+.contentMain .maxWidth .section-grid-cursos .card-cursos .name-curso {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.contentMain .maxWidth .section-grid-cursos .card-cursos .instructor-course {
+  display: flex;
+  align-items: center;
+  gap: 0px 16px;
+}
+.contentMain .maxWidth .section-grid-cursos .card-cursos .instructor-course .avatar-instructor-card {
+  max-width: 54px;
 }
 
 body {
