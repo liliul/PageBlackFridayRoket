@@ -1,0 +1,28 @@
+.orange {
+	color: #fba94c;
+}
+
+.purple {
+	color: #8257e5 !important;
+}
+
+.bg-explorer {
+	background-image: linear-gradient(180deg,#121214 50%,rgba(18,18,20,0)),url('../assets/blur-explorer.webp')!important;
+  	background-position: 0 0,50% 100%;
+    background-size: auto,auto;
+    background-repeat: repeat,no-repeat;
+ }
+ .bg-purple {
+ 	background-image: url('../assets/blur-purple.webp') ,linear-gradient(180deg,transparent,transparent)!important;
+    background-position: 50% 100%,0 0;
+    background-color: rgba(29,19,52,.5);
+ } 
+
+ .dividir-sections {
+ 	margin: 60px 0px;
+
+ 	width: 100%;
+ 	height: 1px;
+
+ 	background-color: #323238;
+ }  

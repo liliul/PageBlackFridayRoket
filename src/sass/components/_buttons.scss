@@ -59,3 +59,16 @@
     font-weight: 700;
     font-size: 16px;
 }
+
+.button-plus{
+    padding: 16px 32px;
+    border-radius: 5px;
+    background-image: linear-gradient(90deg,#996dff,#ffd47f 56%,#ff5c39);
+    color: #121214;;
+    font-family: $f_roboto;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
