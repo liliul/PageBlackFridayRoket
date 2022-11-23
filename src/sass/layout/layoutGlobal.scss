@@ -2,18 +2,4 @@
 
 @import '_contentMain.scss';
 
-body {
-	background-color: $bg-body;
-
-	font-family: Arial,sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    color: #333;
-}
-
-img {
-    border: 0;
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
-}
+@import '_sobre_roket.scss';
