@@ -11,7 +11,7 @@
 
     .maxWidth {
         // width: auto;
-        max-width: 1216px;
+        max-width: $maxWidth;
         margin: $margin_auto;
 
         padding: 0px 16px 0px 16px;

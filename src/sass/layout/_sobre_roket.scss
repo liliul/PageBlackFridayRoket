@@ -1,1 +1,30 @@
+.sobre-a-rocketseat {
+	padding: 140px 0px;
+	background-image: linear-gradient(90deg,#202024,#121214);
 
+	.max-container {
+		max-width: $maxWidth;
+		padding: 0px 24px 8px 24px;
+
+		.c-content {
+
+			.logo-title-text {
+				padding-bottom: 40px;
+
+				.title-sobre {
+					display: flex;
+					align-items: center;
+					gap: 0px 24px;
+				}
+
+				p {
+					margin-top: 24px;
+					strong {
+						font-weight: 700;
+					}
+				}
+			}
+		}
+	}
+
+}
