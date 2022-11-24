@@ -344,6 +344,11 @@ table {
   margin-bottom: -60px;
 }
 
+@media screen and (min-width: 550px) {
+  .text-m-w {
+    max-width: 267px !important;
+  }
+}
 .topbanner {
   width: 100%;
   padding: 10px 0px;
@@ -529,6 +534,31 @@ table {
 .contentMain .maxWidth .section-grid-cursos .card-cursos .instructor-course .avatar-instructor-card {
   max-width: 54px;
 }
+@media screen and (min-width: 1080px) {
+  .contentMain .maxWidth .section-grid-cursos .card-cursos .content-tags {
+    display: flex;
+    flex-direction: row;
+    gap: 0px 16px;
+  }
+  .contentMain .maxWidth .section-grid-cursos .card-cursos .section-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contentMain .maxWidth .section-grid-cursos .card-cursos .section-price div:nth-child(2) {
+    width: auto;
+  }
+  .contentMain .maxWidth .section-grid-cursos .card-cursos .section-price div:nth-child(2) a {
+    width: fit-content;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contentMain .maxWidth .section-grid-cursos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 32px 32px;
+  }
+}
 
 .sobre-a-rocketseat {
   padding: 140px 0px;
@@ -551,6 +581,13 @@ table {
 }
 .sobre-a-rocketseat .max-container .c-content .logo-title-text p strong {
   font-weight: 700;
+}
+@media screen and (min-width: 995px) {
+  .sobre-a-rocketseat .max-container .c-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px 60px;
+  }
 }
 
 .footer-rocket {

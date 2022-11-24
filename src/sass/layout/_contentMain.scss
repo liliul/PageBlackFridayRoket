@@ -199,8 +199,8 @@
                
                @media screen and(min-width: 916px) {
                   img {
-                    display: block;
-                    margin-left: auto;
+                    display: block ;
+                    margin-left: auto ;
 
                   }
 
@@ -255,6 +255,37 @@
 
                 }
 
+                @media screen and(min-width: 1080px) {
+                    .content-tags {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 0px 16px;
+                    }
+
+                    .section-price {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        div:nth-child(2) {
+                            width: auto;
+                            a {
+
+                                width: fit-content;
+                            }
+                        }
+
+                    }
+                }
+
+            }
+        }
+
+        @media screen and(min-width: 768px) {
+            .section-grid-cursos {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 32px 32px;
             }
         }
     }

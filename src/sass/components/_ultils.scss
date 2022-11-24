@@ -111,3 +111,11 @@
   margin-top: -60px;
   margin-bottom: -60px;
 }
+
+
+@media screen and(min-width: 550px) {
+  // text max-width
+  .text-m-w {
+    max-width: 267px !important;
+  }
+}
