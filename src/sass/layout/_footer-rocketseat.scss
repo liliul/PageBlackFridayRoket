@@ -1,0 +1,32 @@
+.footer-rocket {
+	border: 1px solid #202024;
+	border-radius: 1px;
+	background-color: #121214;
+
+	.footer-container {
+		max-width: $maxWidth;
+		padding: 60px 24px;
+
+		.article-footer-content {
+
+
+			.links {
+				text-align: center;
+				display: flex;
+				flex-direction: column;
+				gap: 32px 0px;
+			}
+
+			.button-block {
+				width: 100%;
+				margin-top: 40px;
+				display: flex;
+				justify-content: center;
+
+				.button-inicio {
+					padding-top: 32px;
+				}
+			}
+		}
+	}
+}

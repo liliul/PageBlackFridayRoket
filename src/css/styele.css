@@ -13,6 +13,7 @@ ruby, section, summary, time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
   max-width: 100%;
+  background-attachment: scroll !important;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -135,6 +136,15 @@ table {
   line-height: 130%;
   font-weight: 400;
   color: #e1e1e6;
+}
+
+.paragraph-2 {
+  font-family: "Roboto", sans-serif;
+  color: #c4c4cc;
+  font-size: 16px;
+  line-height: 160%;
+  font-style: normal;
+  text-decoration: none;
 }
 
 .button-assemble {
@@ -460,6 +470,31 @@ table {
 }
 .sobre-a-rocketseat .max-container .c-content .logo-title-text p strong {
   font-weight: 700;
+}
+
+.footer-rocket {
+  border: 1px solid #202024;
+  border-radius: 1px;
+  background-color: #121214;
+}
+.footer-rocket .footer-container {
+  max-width: 1216px;
+  padding: 60px 24px;
+}
+.footer-rocket .footer-container .article-footer-content .links {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 32px 0px;
+}
+.footer-rocket .footer-container .article-footer-content .button-block {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.footer-rocket .footer-container .article-footer-content .button-block .button-inicio {
+  padding-top: 32px;
 }
 
 /*# sourceMappingURL=styele.css.map */
