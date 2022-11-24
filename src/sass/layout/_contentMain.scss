@@ -24,7 +24,7 @@
                 flex-direction: column;
                 align-items: center;
 
-                margin-top: 40px;
+                padding-top: 80px;
 
                 .logo-blackfirday {
                     width: 100%;
@@ -69,8 +69,8 @@
 
                 .logo-contents {
                     display: flex;
-                    justify-content: space-between;
                     align-items: center;
+                    gap: 0px 16px;
 
                     margin-bottom: 24px;
 
@@ -128,9 +128,50 @@
 
                 
 
-                    }
-                
+                    }              
                 }
+                @media screen and(min-width: 479px) {
+                        .section-price {
+                            background-image: linear-gradient(90deg,#29292e,rgba(41,41,46,0));
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+
+                            div:nth-child(2) {
+                                max-width: 143px;
+                            }
+                        }
+
+                        .section-content-buttom {
+
+                            .div-content-buttons {
+                                a {
+                                    width: fit-content;
+
+                                }
+                            }
+                        }
+                    }
+
+                @media screen and(min-width: 503px) {
+                        
+
+                        .section-content-buttom {
+
+                            .div-content-buttons {
+                                display: flex !important;
+                                flex-direction: row !important;
+                                gap: 0px 16px;
+                                a {
+                                    width: fit-content;
+
+                                    display: flex;
+                                    align-items: center;
+
+                                }
+                            }
+                        }
+                }    
 
                 .section-content-buttom {
 
@@ -144,9 +185,41 @@
                 }
                 
             }
+            @media screen and(min-width: 991px) {
+                .content-c-esq {
+                    padding-right: 60px;
+                }
+            }
+
+
 
             .content-c-dir {
                 margin-top: 60px;
+
+               
+               @media screen and(min-width: 916px) {
+                  img {
+                    display: block;
+                    margin-left: auto;
+
+                  }
+
+                   
+               }
+            }
+        }
+        @media screen and(min-width: 479px) {
+           .section-card-products {
+            background-image: url('../assets/blur-ignite.webp');
+            background-position: 0 0;
+            background-size: cover;
+            background-repeat: no-repeat;
+           }
+        }
+        @media screen and(min-width: 991px) {
+            .section-card-products {
+                display: flex;
+                padding: 60px 0px 60px 60px;
             }
         }
 

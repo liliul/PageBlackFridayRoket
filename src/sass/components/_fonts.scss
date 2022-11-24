@@ -95,3 +95,10 @@
     font-style: normal;
     text-decoration: none;
 }
+
+@media screen and(min-width: 991px) {
+    .headline-32 {
+        font-size: 32px;
+        line-height: 140%;
+    }
+}
