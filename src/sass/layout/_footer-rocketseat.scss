@@ -28,5 +28,34 @@
 				}
 			}
 		}
+
+
+		@media screen and(min-width: 600px) {
+			.article-footer-content {
+
+				.links {
+					display: flex;
+					flex-direction: row;
+					gap: 0px 48px;					
+				}
+
+			}
+		}
+
+		@media screen and(min-width: 768px) {
+			.article-footer-content {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				.button-block {
+					width: auto;
+					margin-top: 0;
+
+					.button-inicio {
+						padding-top: 0;
+					}
+				}
+			}
+		}
 	}
 }
