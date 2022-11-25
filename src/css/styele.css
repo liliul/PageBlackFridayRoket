@@ -14,6 +14,7 @@ ruby, section, summary, time, mark, audio, video {
   vertical-align: baseline;
   max-width: 100%;
   background-attachment: scroll !important;
+  scroll-behavior: smooth;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -152,6 +153,11 @@ table {
     font-size: 32px;
     line-height: 140%;
   }
+
+  .headline-48 {
+    font-size: 48px;
+    line-height: 125%;
+  }
 }
 .button-assemble {
   background-color: #8257e5;
@@ -221,6 +227,10 @@ table {
   text-decoration: none;
   font-weight: 700;
   font-size: 16px;
+}
+.link-mais:hover {
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px #FFF;
 }
 
 .button-plus {
@@ -383,11 +393,12 @@ table {
   padding-top: 80px;
 }
 .contentMain .maxWidth .content-center .header-content-black .logo-blackfirday {
-  width: 100%;
+  height: 36px;
 }
 .contentMain .maxWidth .content-center .header-content-black .center {
   margin-top: 24px;
   text-align: center;
+  max-width: 810px;
 }
 .contentMain .maxWidth .content-center .header-content-black a {
   margin-top: 24px;

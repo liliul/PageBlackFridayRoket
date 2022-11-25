@@ -73,6 +73,12 @@
     text-decoration: none;
     font-weight: 700;
     font-size: 16px;
+
+    &:hover {
+      border-radius: 4px;
+      // border: 1px solid #FFF;
+      box-shadow: 1px 1px 10px #FFF;
+    }
 }
 
 .button-plus{
