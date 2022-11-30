@@ -2,58 +2,40 @@
 
 .regular-16 {
 	font-family: $f_roboto;
-	font-size: 14px;
-    line-height: 160%;
-    font-weight: 700;
+
+    @include font_headline1(14px,700,160%,unset)
 }
 
 .headline-20 {
 	font-family: $f_roboto;
-    color: #e1e1e6;
-    font-size: 18px;
-    line-height: 160%;
-    font-weight: 700;
+
+    @include font_headline1(18px,700,160%,#e1e1e6)
 }
 .headline-24 {
 	font-family: $f_roboto;
-    color: #00b37e;
-    font-size: 24px;
-    line-height: 140%;
-    font-weight: 700;
 
-    text-align: center;
-    margin-top: 8px;
+    @include font_headline2(#00b37e)
 }
 .headline-blue {
     font-family: $f_roboto;
-    color: #42d3ff;
-    font-size: 24px;
-    line-height: 140%;
-    font-weight: 700;
 
-    text-align: center;
-    margin-top: 8px;
+    @include font_headline2(#42d3ff)
 }
 .headline-48 {
 	font-family: $f_roboto;
-    color: #fff;
-    font-size: 30px;
-    line-height: 125%;
-    font-weight: 700;
+
+    @include font_headline1(30px, 700, 125%, #fff);
 }
 .headline-32 {
 	font-family: $f_roboto;
-    color: #fff;
-    font-size: 24px;
-    line-height: 140%;
-    font-weight: 700;
+
+    @include font_headline1(24px,700,140%,#fff)
 }
 
 .p-16 {
 	font-family: $f_roboto;
-    font-size: 16px;
-    line-height: 160%;
-    color: #e1e1e6;
+
+    @include font_headline1(16px, unset,160%,#e1e1e6)
 }
 .p-gray {
 	font-family: $f_roboto;
@@ -65,9 +47,8 @@
 
 .text-buttom {
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 700;
-    color: #FFF;
+ 
+    @include font_headline1(14px, 700, unset, #FFF);
 
     font-family: $f_roboto;
 }
@@ -81,17 +62,15 @@
 }
 
 .heading-40 {
-    font-size: 28px;
-    line-height: 130%;
-    font-weight: 400;
-    color: #e1e1e6;
+
+    @include font_headline1(28px,400,130%,#e1e1e6);
+
 }
 
 .paragraph-2 {
     font-family: $f_roboto;
-    color: #c4c4cc;
-    font-size: 16px;
-    line-height: 160%;
+  
+    @include font_headline1(16px,unset,160%,#c4c4cc);
     font-style: normal;
     text-decoration: none;
 }

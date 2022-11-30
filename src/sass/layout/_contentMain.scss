@@ -10,7 +10,6 @@
     padding-bottom: 100px;
 
     .maxWidth {
-        // width: auto;
         max-width: $maxWidth;
         margin: $margin_auto;
 
@@ -84,7 +83,7 @@
 
                     .heat-text {
                         font-family: Roboto,sans-serif;
-                        font-size: 12px;
+                        font-size: clamp(12px, 1rem + 2vw, 19px);
                         color: #00b37e;
                         font-weight: 700;
                         text-transform: uppercase;
@@ -93,6 +92,19 @@
                         color: #42d3ff;
                         
                     }
+                }
+                @media  screen and(max-width: 376px) {
+                    .logo-contents {
+                        display: block;
+
+                        .divisor {
+                            display: none;
+                        }
+                        .heat-text {
+                            margin-top: 5px;
+                        }
+                    }
+                    
                 }
 
                 .mt24 {
@@ -121,16 +133,7 @@
                     padding: 16px;
                     border-radius: 4px;
                     margin-bottom: 24px;
-
-                    .price-value {
-
-                    }
-
-                    .p-gray {
-
-                
-
-                    }              
+             
                 }
                 @media screen and(min-width: 479px) {
                         .section-price {

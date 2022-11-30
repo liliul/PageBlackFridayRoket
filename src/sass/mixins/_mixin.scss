@@ -1,0 +1,19 @@
+// mixin de fonts
+@mixin font_headline1($f_size,$f_bold,$line_h,$f_cor,) {
+    font: {
+        size: $f_size;
+        weight:$f_bold;
+    };
+    line-height: $line_h;
+    color: $f_cor;
+}
+
+@mixin  font_headline2($f_cor) {
+    color: $f_cor;
+    font-size: 24px;
+    line-height: 140%;
+    font-weight: 700;
+
+    text-align: center;
+    margin-top: 8px;
+}
