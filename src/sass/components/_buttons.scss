@@ -18,78 +18,41 @@
 }
 
 .button-lp-ignite {
-    padding: 16px 32px;
-    border-radius: 5px;
-    background-color: #00875f;
-    -webkit-transition: background-color .2s;
-    transition: background-color .2s;
-    font-family: $f_roboto;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #fff;
-    text-align: center;
+  
+  @include button_lp(#00875f, #fff);
+
+}
+.button-lp-explorer {
+   
+  @include button_lp(#42d3ff, #000)
+
+}
+.button-lp-purple {
+  
+  @include button_lp(#8257e5, #fff)
+
 }
 
-  .button-lp-explorer{
-    padding: 16px 32px;
-    border-radius: 5px;
-    background-color: #42d3ff;
-    -webkit-transition: background-color .2s;
-    transition: background-color .2s;
-    font-family: $f_roboto;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: black;
-    text-align: center;
-}
+.link-mais {
+  margin-top: 8px;
+  padding: 16px 32px;
+  background-color: transparent;
+  -webkit-transition-property: border;
+  transition-property: border;
+  color: #e1e1e6;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
 
-  .button-lp-purple{
-    padding: 16px 32px;
-    border-radius: 5px;
-    background-color: #8257e5;
-    -webkit-transition: background-color .2s;
-    transition: background-color .2s;
-    font-family: $f_roboto;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: white;
-    text-align: center;
-}
-
-  .link-mais {
-    margin-top: 8px;
-    padding: 16px 32px;
-    background-color: transparent;
-    -webkit-transition-property: border;
-    transition-property: border;
-    color: #e1e1e6;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 16px;
-
-    &:hover {
-      border-radius: 4px;
-      // border: 1px solid #FFF;
-      box-shadow: 1px 1px 10px #FFF;
-    }
+  &:hover {
+    border-radius: 4px;   
+    box-shadow: 1px 1px 10px #999;
+  }
 }
 
 .button-plus{
-    padding: 16px 32px;
-    border-radius: 5px;
     background-image: linear-gradient(90deg,#996dff,#ffd47f 56%,#ff5c39);
-    color: #121214;;
-    font-family: $f_roboto;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: center;
+
+    @include button_lp(unset, #121214)
 }

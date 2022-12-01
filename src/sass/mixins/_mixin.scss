@@ -17,3 +17,23 @@
     text-align: center;
     margin-top: 8px;
 }
+
+// end fonts
+
+// mixin button
+@mixin button_lp($bg_cor,$f_cor) {
+    padding: 16px 32px;
+    border-radius: 5px;
+    background-color: $bg_cor;
+    -webkit-transition: background-color .2s;
+    transition: background-color .2s;
+    font-family: $f_roboto;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $f_cor;
+    text-align: center;
+}
+
+// end button
