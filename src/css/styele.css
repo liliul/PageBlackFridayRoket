@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+.error, .link-mais:hover {
+  color: tomato;
+}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
 img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u,
@@ -48,6 +52,10 @@ blockquote:before, blockquote:after, q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.error, .link-mais:hover {
+  color: tomato;
 }
 
 .regular-16 {
@@ -107,7 +115,7 @@ table {
   font-size: 16px;
   font-weight: unset;
   line-height: 160%;
-  color: #e1e1e6;
+  color: #e1e1e1;
 }
 
 .p-gray {
@@ -154,7 +162,7 @@ table {
 
 @media screen and (min-width: 991px) {
   .headline-32 {
-    font-size: 32px;
+    font-size: 33px;
     line-height: 140%;
   }
 
@@ -163,6 +171,23 @@ table {
     line-height: 125%;
   }
 }
+.error, .link-mais:hover {
+  color: tomato;
+}
+
+.link-mais {
+  margin-top: 8px;
+  padding: 16px 32px;
+  background-color: transparent;
+  -webkit-transition-property: border;
+  transition-property: border;
+  color: #e1e1e6;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+}
+
 .button-assemble {
   background-color: #8257e5;
   border: 0;
@@ -220,18 +245,6 @@ table {
   text-align: center;
 }
 
-.link-mais {
-  margin-top: 8px;
-  padding: 16px 32px;
-  background-color: transparent;
-  -webkit-transition-property: border;
-  transition-property: border;
-  color: #e1e1e6;
-  text-align: center;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 16px;
-}
 .link-mais:hover {
   border-radius: 4px;
   box-shadow: 1px 1px 10px #999;
@@ -441,8 +454,7 @@ table {
   background-color: #505059;
 }
 .contentMain .maxWidth .section-card-products .content-c-esq .logo-contents .heat-text {
-  font-family: "Roboto", sans-serif;
-  font-size: clamp(12px, 1rem + 2vw, 16px);
+  font-family: Roboto, sans-serif;
   color: #00b37e;
   font-weight: 700;
   text-transform: uppercase;
@@ -515,6 +527,13 @@ table {
 @media screen and (min-width: 991px) {
   .contentMain .maxWidth .section-card-products .content-c-esq {
     padding-right: 60px;
+    width: 50%;
+  }
+  .contentMain .maxWidth .section-card-products .content-c-dir {
+    margin-top: 0 !important;
+    width: 50%;
+    display: flex;
+    justify-content: end;
   }
 }
 .contentMain .maxWidth .section-card-products .content-c-dir {
@@ -537,6 +556,7 @@ table {
 @media screen and (min-width: 991px) {
   .contentMain .maxWidth .section-card-products {
     display: flex;
+    align-items: center;
     padding: 60px 0px 60px 60px;
   }
 }
@@ -596,6 +616,7 @@ table {
 .sobre-a-rocketseat .max-container {
   max-width: 1216px;
   padding: 0px 24px 8px 24px;
+  margin: 0 auto;
 }
 .sobre-a-rocketseat .max-container .c-content .logo-title-text {
   padding-bottom: 40px;
@@ -604,6 +625,14 @@ table {
   display: flex;
   align-items: center;
   gap: 0px 24px;
+}
+@media screen and (max-width: 340px) {
+  .sobre-a-rocketseat .max-container .c-content .logo-title-text .title-sobre {
+    display: block;
+  }
+  .sobre-a-rocketseat .max-container .c-content .logo-title-text .title-sobre .heading-40 {
+    font-size: 2em;
+  }
 }
 .sobre-a-rocketseat .max-container .c-content .logo-title-text p {
   margin-top: 24px;
@@ -619,6 +648,10 @@ table {
   }
 }
 
+.error, .link-mais:hover {
+  color: tomato;
+}
+
 .footer-rocket {
   border: 1px solid #202024;
   border-radius: 1px;
@@ -627,6 +660,7 @@ table {
 .footer-rocket .footer-container {
   max-width: 1216px;
   padding: 60px 24px;
+  margin: 0 auto;
 }
 .footer-rocket .footer-container .article-footer-content .links {
   text-align: center;

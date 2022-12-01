@@ -82,8 +82,8 @@
                     }
 
                     .heat-text {
-                        font-family: 'Roboto',sans-serif;
-                        font-size: clamp(12px, 1rem + 2vw, 16px);
+                        font-family: Roboto,sans-serif;
+                        // font-size: clamp(12px, 1rem + 2vw, 16px);
                         color: #00b37e;
                         font-weight: 700;
                         text-transform: uppercase;
@@ -190,9 +190,20 @@
                 }
                 
             }
-            @media screen and(min-width: 991px) {
+            
+            @include media991px {
+
                 .content-c-esq {
                     padding-right: 60px;
+                    width: 50%; 
+                }
+                .content-c-dir {
+                    margin-top: 0 !important;
+                    width: 50%;
+
+                    display: flex;
+                    justify-content: end;
+
                 }
             }
 
@@ -221,9 +232,12 @@
             background-repeat: no-repeat;
            }
         }
-        @media screen and(min-width: 991px) {
+
+        @include media991px {
             .section-card-products {
                 display: flex;
+                align-items: center;
+
                 padding: 60px 0px 60px 60px;
             }
         }

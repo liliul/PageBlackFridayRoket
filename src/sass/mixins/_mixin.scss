@@ -37,3 +37,20 @@
 }
 
 // end button
+
+//teste
+@mixin media991px($min_width: 991px){
+    @media screen {
+        @media (min-width: $min_width) {
+            @content
+        }
+    }
+};
+
+@mixin  mediaSobre($max_width: 400px) {
+    @media screen {
+        @media (max-width: $max_width) {
+            @content
+        }
+    }
+}

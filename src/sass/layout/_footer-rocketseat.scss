@@ -1,11 +1,14 @@
+@use '../variables/variables';
+
 .footer-rocket {
 	border: 1px solid #202024;
 	border-radius: 1px;
 	background-color: #121214;
 
 	.footer-container {
-		max-width: $maxWidth;
+		max-width: variables.$maxWidth;
 		padding: 60px 24px;
+		margin: 0 auto;
 
 		.article-footer-content {
 

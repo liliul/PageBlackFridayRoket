@@ -1,20 +1,38 @@
+@use '../variables/variables';
 
- .button-assemble {
-    background-color: #8257e5;
-    border: 0;
-    padding: 14px 24px;
-    border-radius: 5px;
+// placeholder
+%button-mais {
+  margin-top: 8px;
+  padding: 16px 32px;
+  background-color: transparent;
+  -webkit-transition-property: border;
+  transition-property: border;
+  color: variables.$color_gray;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+}
 
-    display: flex;
-    align-items: center;
+// end placeholder
 
-    
-   
+.button-assemble {
 
-    b {
-        margin-left: 8px;
-        
-    }
+  background-color: #8257e5;
+  border: 0;
+  padding: 14px 24px;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+
+  
+  
+
+  b {
+      margin-left: 8px;
+      
+  }
 }
 
 .button-lp-ignite {
@@ -34,20 +52,16 @@
 }
 
 .link-mais {
-  margin-top: 8px;
-  padding: 16px 32px;
-  background-color: transparent;
-  -webkit-transition-property: border;
-  transition-property: border;
-  color: #e1e1e6;
-  text-align: center;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 16px;
+
+  
+  @extend %button-mais;
+
 
   &:hover {
     border-radius: 4px;   
     box-shadow: 1px 1px 10px #999;
+    
+    @extend .error;
   }
 }
 

@@ -5,7 +5,8 @@
 	.max-container {
 		max-width: $maxWidth;
 		padding: 0px 24px 8px 24px;
-
+		margin: 0 auto;
+		
 		.c-content {
 
 			.logo-title-text {
@@ -15,6 +16,17 @@
 					display: flex;
 					align-items: center;
 					gap: 0px 24px;
+
+					
+				}
+				@include mediaSobre(340px) {
+					.title-sobre {
+						display: block;
+						
+						.heading-40 {
+							font-size: 2em;
+						}
+					}
 				}
 
 				p {

@@ -35,7 +35,7 @@
 .p-16 {
 	font-family: $f_roboto;
 
-    @include font_headline1(16px, unset,160%,#e1e1e6)
+    @include font_headline1(16px, unset,160%,#e1e1e1)
 }
 .p-gray {
 	font-family: $f_roboto;
@@ -75,9 +75,22 @@
     text-decoration: none;
 }
 
-@media screen and(min-width: 991px) {
+// @media screen and(min-width: 991px) {
+//     .headline-32 {
+//         font-size: 32px;
+//         line-height: 140%;
+//     }
+
+//     .headline-48 {
+//         font-size: 48px;
+//         line-height: 125%;
+
+//     }
+// }
+
+@include media991px {
     .headline-32 {
-        font-size: 32px;
+        font-size: 33px;
         line-height: 140%;
     }
 

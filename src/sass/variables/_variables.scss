@@ -1,6 +1,9 @@
 // background-color body
 $bg-body: #121214;
 
+// color font
+$color_gray: #e1e1e6;
+
 // maximo do width container
 $maxWidth: 1216px;
 
@@ -15,3 +18,8 @@ $f_roboto: 'Roboto', sans-serif;
 
 // linear gradient
 $bg_banner: linear-gradient(90deg,#8257e5,#f75a68);
+
+//teste
+.error {
+    color: tomato;
+}
